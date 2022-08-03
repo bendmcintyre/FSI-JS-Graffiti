@@ -20,7 +20,3 @@ let footer = document.querySelector(".footer");
 footer.style.color = "blue";
 footer.style.borderStyle = "solid";
 footer.style.borderColor = "black";
-
-for (let i = 0; i < dogImages.length; i++) {
-  dogImages[i].style.transform = "scaleY(-1)";
-}
