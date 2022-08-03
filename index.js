@@ -11,6 +11,7 @@ let dogNames = document.querySelectorAll(".dog-name");
 for (let i = 0; i < dogNames.length; i++) {
   dogNames[i].style.textAlign = "left";
 }
+
 for (let i = 0; i < dogImages.length; i++) {
   dogImages[i].style.transform = "scaleY(-1)";
 }
@@ -18,6 +19,7 @@ for (let i = 0; i < dogImages.length; i++) {
 let footer = document.querySelector(".footer");
 footer.style.color = "blue";
 footer.style.borderStyle = "solid";
+footer.style.borderColor = "black";
 
 for (let i = 0; i < dogImages.length; i++) {
   dogImages[i].style.transform = "scaleY(-1)";
